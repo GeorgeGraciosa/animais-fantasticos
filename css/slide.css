@@ -12,6 +12,7 @@
 }
 
 .slide:hover {
+  cursor: pointer;
   will-change: transform;
 }
 
@@ -38,6 +39,10 @@
   justify-content: center;
   flex-wrap: wrap;
   grid-column: 1 / -1;
+}
+
+.custom-control:hover {
+  cursor: pointer;
 }
 
 .custom-control li {
